@@ -1,0 +1,20 @@
+.chips {
+    padding: 0 2.4rem;
+    border-radius: 10px;
+    border: 1px solid #000000AA;
+    display: inline-flex;
+    margin: 0 3.2rem 2.9rem 3.2rem;
+    color: $black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chips:hover {
+    color: white;
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.chips:target {
+    background-color: #000000;
+}
