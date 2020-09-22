@@ -36,6 +36,14 @@
     color: $primary
 }
 
+.viewMore{
+    color:$primary;
+    cursor: pointer;
+}
+.viewMore:hover{
+    text-decoration: underline;
+}
+
 @media(max-width: 45rem){
     .categoriesList {
         margin: 0rem;
